@@ -989,3 +989,16 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }/*# sourceMappingURL=style.css.map */
+#photo-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px; /* adjust so photo sits nicely on the flowers */
+}
+
+#photo-container img {
+    width: 180px;          /* adjust size if needed */
+    border-radius: 20px;   /* rounded corners */
+    position: relative;
+    z-index: 10;           /* make sure the photo is above the flowers */
+}
